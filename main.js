@@ -3,7 +3,7 @@
 // @namespace    https://github.com/Elypha/copy_itemname_ff14huijiwiki
 // @version      0.1
 // @description  添加一个按钮，点击即可复制ff14 灰机wiki里，物品制作材料里的材料名
-// @author       Elypha 鈴鹿御前@幻影群岛 金光闪闪大萌德@NGA
+// @author       Elypha 金光闪闪大萌德@NGA
 // @date         2018-12-25
 // @modified     2018-12-25
 // @match        https://ff14.huijiwiki.com/wiki/*
