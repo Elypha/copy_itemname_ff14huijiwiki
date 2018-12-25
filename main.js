@@ -21,7 +21,6 @@ document.getElementsByTagName("HEAD").item(0).appendChild(style)
 
 var craft_list = document.getElementsByClassName("item-craft-list")[0]
 var item_name = craft_list.querySelectorAll(".item-name")
-console.log(item_name[1].innerText)
 var item_append = craft_list.querySelectorAll(".item-number")
 
 
