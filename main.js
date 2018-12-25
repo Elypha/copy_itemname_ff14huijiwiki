@@ -14,9 +14,9 @@
 var style = document.createElement("style")
 style.type = "text/css"
 style.innerHTML=".copy_button{margin-left: 10px;margin-right: 6px;height: 18px;width: 42px;vertical-align: middle;color: #ea6060;font-style: normal;"+
-"font-variant-ligatures: normal;font-variant-caps: normal;font-variant-numeric: normal;font-variant-east-asian: normal;"+
-"font-weight: 400;font-stretch: normal;font-size: 12px;line-height: normal;font-family: Arial;padding-left: 0px;padding-right: 0px;"+
-"background-color: #ffc8c8;border-color: #ffe8e8;border-radius: 4px;border-width: 1px;box-shadow: 1px 1px 1px #6b4040;}";
+    "font-variant-ligatures: normal;font-variant-caps: normal;font-variant-numeric: normal;font-variant-east-asian: normal;"+
+    "font-weight: 400;font-stretch: normal;font-size: 12px;line-height: normal;font-family: Arial;padding-left: 0px;padding-right: 0px;"+
+    "background-color: #ffc8c8;border-color: #ffe8e8;border-radius: 4px;border-width: 1px;box-shadow: 1px 1px 1px #6b4040;}";
 document.getElementsByTagName("HEAD").item(0).appendChild(style)
 
 var craft_list = document.getElementsByClassName("item-craft-list")[0]
@@ -28,7 +28,6 @@ var item_append = craft_list.querySelectorAll(".item-number")
 function copy_text(text) {
     var textArea = document.createElement('textArea')
     textArea.value = text
-    console.log(textArea.value)
     document.body.appendChild(textArea)
     textArea.select()
     document.execCommand("Copy")
